@@ -1,5 +1,126 @@
-*{
+* {
     padding: 0;
     margin: 0;
-   
+    line-height: auto;
+    box-sizing: border-box;
+    max-width: 100%;
+    height: auto;
+    font-family: sans-serif;
+}
+
+.container-1 {
+    max-width: 375px;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    padding-right: 16px;
+    padding-left: 16px;
+}
+
+.header-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 567px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.text-head {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 20px;
+    color: #105296;
+    ;
+}
+
+.text1-head {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.BG {
+    background-size: cover;
+    background-image: url(BG.png);
+    max-width: 100%;
+    height: 708px;
+}
+.sec1-margin{
+    height: 16px;
+}
+.sec1-option {
+    background-color: #071A3F;
+    border-radius:26px 26px 22px 22px ;
+    
+}
+
+.sec1-table {
+    display: flex;
+    justify-content: center;
+}
+
+.sec1-text1 {
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 0 0 9px 9px;
+}
+
+.sec1-text2 {
+    width: 100px;
+
+    background-color: white;
+    color: #595959;
+    position: relative;
+    border-radius: 9px 9px 0 0;
+    align-items: center;
+    text-align: center;
+    padding-top: 4px;
+    padding-bottom: 5px;
+}
+
+.sec1-text3 {
+    width: 100px;
+    background-color: #C5DDF4;
+    z-index: 1111;
+    border-radius: 9px 9px 0 0;
+    padding-top: 4px;
+    align-items: center;
+}
+
+.sec1-text4 {
+    width: 100px;
+    background-color: #0C3D77;
+    z-index: 1111;
+    border-radius: 9px 9px 0 0;
+    padding-top: 6px;
+    margin-top: 8px;
+    margin-left: 4px;
+}
+
+.dots {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: #C5DDF4;
+    position: absolute;
+    top: 4px;
+    right: 4px;
+}
+.sec1-table-body{
+    background-color: #192D52;
+    border-radius: 0 0 22px 22px;
+}
+.sec1-img1{
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 24px ;
+    padding-bottom: 24px;
+}
+.sec1-box{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    padding-bottom: 16px;
+    
 }
