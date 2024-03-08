@@ -1,5 +1,6 @@
 import React from 'react'
 import './main.css'
+import ComplexButton from './vidu'
 const Section1 = () => {
     return (
         <>
@@ -63,7 +64,7 @@ const Section1 = () => {
                             </div>
                     </div>
                     
-                    
+                    <ComplexButton />
                 </div>
             </div>
         </>
