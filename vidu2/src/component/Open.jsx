@@ -1,6 +1,6 @@
 import React from 'react';
 import Box from './Box';
-
+import './main.css'
 class ComplexButton extends React.Component {
     state = {
         isActive: false
@@ -21,7 +21,7 @@ class ComplexButton extends React.Component {
                     className={isActive ? 'custom-button active' : 'custom-button'} 
                     onClick={this.toggleActiveState}
                 >
-                    {isActive ? 'Active' : 'Click me'}
+                    {isActive ? 'đã Mở ' : 'Mở quà'}
                 </button>
                 {isActive && (
                     <Box />

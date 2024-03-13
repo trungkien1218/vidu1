@@ -1,6 +1,8 @@
 import React from 'react'
 import './main.css'
-import ComplexButton from './vidu'
+import ComplexButton from './Open.jsx'
+import ButtonMission from './Mission/Button.jsx'
+import Misson from './Mission/Misson.jsx'
 const Section1 = () => {
     return (
         <>
@@ -14,7 +16,7 @@ const Section1 = () => {
                                 <div className='sec1-text4'>
                                     <div className='sec1-text3'>
                                         <div className='sec1-text2'>
-                                            <span>Nhiệm vụ</span>
+                                            <span><ButtonMission /> </span>
                                             <div className='dots'></div>
                                         </div>
                                     </div>
@@ -25,7 +27,7 @@ const Section1 = () => {
                                 <div className='sec1-text4'>
                                     <div className='sec1-text3'>
                                         <div className='sec1-text2'>
-                                            <span>Mở quà</span>
+                                            <span> <ComplexButton /> </span>
                                             <div className='dots'></div>
                                         </div>
                                     </div>
@@ -44,27 +46,11 @@ const Section1 = () => {
 
                             </span>
                         </div>
-                        <div className="sec1-table-body">
-                                <img src="Artboard 17@3x 1.png" alt="" className='sec1-img1' />
-                                <div className='sec1-box'>
-                                    <img src="giftbox_common 2.png" alt="" className='box'/>
-                                    <img src="giftbox_common 2.png" alt=""  className='box'/>
-                                    <img src="giftbox_common 2.png" alt=""  className='box'/>
-                                </div>
-                                <div className='sec1-box'>
-                                    <img src="giftbox_common 2.png" alt="" className='box'/>
-                                    <img src="giftbox_common 2.png" alt=""  className='box'/>
-                                    <img src="giftbox_common 2.png" alt=""  className='box'/>
-                                </div>
-                                <div className='sec1-box'>
-                                    <img src="giftbox_common 2.png" alt="" className='box'/>
-                                    <img src="giftbox_common 2.png" alt=""  className='box'/>
-                                    <img src="giftbox_common 2.png" alt=""  className='box'/>
-                                </div>
-                            </div>
+ 
                     </div>
                     
                     <ComplexButton />
+                    <Misson />
                 </div>
             </div>
         </>

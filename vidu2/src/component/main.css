@@ -45,13 +45,15 @@
     max-width: 100%;
     height: 708px;
 }
-.sec1-margin{
+
+.sec1-margin {
     height: 16px;
 }
+
 .sec1-option {
     background-color: #071A3F;
-    border-radius:26px 26px 22px 22px ;
-    
+    border-radius: 26px 26px 22px 22px;
+    height: 546px;
 }
 
 .sec1-table {
@@ -106,33 +108,125 @@
     top: 4px;
     right: 4px;
 }
-.sec1-table-body{
+
+.sec1-table-body {
     background-color: #192D52;
     border-radius: 0 0 22px 22px;
+    max-width: 343px;
 }
-.sec1-img1{
+
+.sec1-img1 {
     align-items: center;
     text-align: center;
     margin: 0 auto;
-    padding-top: 24px ;
+    padding-top: 24px;
     padding-bottom: 24px;
+    max-width: 100%;
 }
-.sec1-box{
+
+.sec1-box {
     display: flex;
     justify-content: center;
     gap: 16px;
     padding-bottom: 16px;
-    
+
 }
 
-.container {
+.sec1-text2:active {
+    background-color: #3C8DD9;
+    color: #FFFFFF;
+}
+
+.dots:active {
+    background-color: #C5DDF4;
+}
+
+.sec1-text3:active {
+    background-color: #2C74C8;
+}
+
+.step {
+    height: 80px;
+    max-width: 311px;
+    background-color: #ECF5FA;
+    margin-right: 16px;
+    margin-left: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 16px;
+}
+
+
+.in-step {
     display: flex;
-    flex-direction: column;
-    margin-top: 10px;
+    justify-content: space-between;
 }
 
-.sub-div {
-    background-color: #f1f1f1;
-    padding: 10px;
-    margin-bottom: 5px;
+.text1-step {
+    height: 24px;
+    background-color: #192D52;
+}
+
+.text2-step {
+    height: 16px;
+    background-color: #192D52;
+}
+
+.green-1 {
+    width: 109px;
+    background-color: #629804;
+    border-radius: 9px;
+    height: 35px;
+}
+
+.green-2 {
+    width: 109px;
+    background-color: #89C53A;
+    border-radius: 9px;
+    height: 32px;
+}
+
+.green-3 {
+    background-color: #A0D93C;
+    border-radius: 9px;
+    max-width: 109px;
+    align-items: center;
+    text-align: center;
+    height: 28px;
+    position: relative;
+}
+
+.green-4 {
+    height: 15px;
+    border-radius: 9px;
+    width: 105px;
+    position: absolute;
+    top: 3px;
+    right: 2px;
+    max-width: 100%;
+    background-color: #B0EB62;
+    z-index: 11;
+}
+
+.yellow {
+    background-color: #E4FF55;
+    border-radius: 50%;
+    height: 8px;
+    width: 8px;
+    position: absolute;
+    top: 3px;
+    right: 4px;
+}
+
+.green-text {
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    position: absolute;
+    z-index: 1111;
+    top: 7px;
+    left: 7px;
+    color: #2E3F00;
 }
