@@ -230,3 +230,12 @@
     left: 7px;
     color: #2E3F00;
 }
+
+.history-content {
+    width: 300px; /* Đặt độ rộng mong muốn, ví dụ 300px */
+    display: none; /* Ẩn ban đầu */
+}
+
+.active .history-content {
+    display: block; /* Hiển thị khi button được chọn */
+}

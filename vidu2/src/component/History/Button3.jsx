@@ -1,7 +1,7 @@
 import React from 'react';
+import History from './History';
 
-import Misson from './Misson.jsx';
-class ButtonMission extends React.Component {
+class Button3 extends React.Component {
     state = {
         clickActive: false
     };
@@ -21,14 +21,14 @@ class ButtonMission extends React.Component {
                     className={clickActive ? 'custom-button active' : 'custom-button'}
                     onClick={this.toggleActive}
                 >
-                    {clickActive ? 'Nhiệm vụ ' : 'Nhiệm vụ'}
+                    {clickActive ? 'Lịch sử mở ' : 'Lịch sử mở'}
                 </button>
                 {clickActive && (
-                    <Misson />
+                   <History />
                 )}
             </div>
         );
     }
 }
 
-export default ButtonMission;
+export default Button3;
